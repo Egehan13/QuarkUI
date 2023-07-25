@@ -2,3 +2,704 @@
 
    Egehan Eren Gunes
 */
+
+/* Yenilikçi ve Göz Alıcı Button Stilleri */
+
+/* Renk Değiştiren Button */
+.btn-colorful {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff6347;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-colorful:hover {
+  background-color: #00ced1;
+}
+
+/* Dönüşümlü Button */
+.btn-toggle {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-toggle.active {
+  background-color: #00ff00;
+}
+
+/* Yatay Gradient Button */
+.btn-horizontal-gradient {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to right, #007bff, #00ff00);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-horizontal-gradient:hover {
+  background: linear-gradient(to right, #00ff00, #007bff);
+}
+
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Neon Button */
+.btn-neon {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-neon:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+}
+
+/* Gradient Outline Button */
+.btn-gradient-outline {
+  font-size: 18px;
+  color: #007bff;
+  padding: 12px 24px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #007bff, #00ff00);
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  -o-background-clip: padding-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-gradient-outline:hover {
+  color: #00ff00;
+}
+
+/* Şeffaf Kenarlık Button */
+.btn-transparent-border {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #007bff, #00ff00);
+  border-image-slice: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-transparent-border:hover {
+  transform: scale(1.1);
+}
+
+
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Neon Button */
+.btn-neon {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-neon:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+}
+
+/* Gradient Outline Button */
+.btn-gradient-outline {
+  font-size: 18px;
+  color: #007bff;
+  padding: 12px 24px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #007bff, #00ff00);
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  -o-background-clip: padding-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-gradient-outline:hover {
+  color: #00ff00;
+}
+
+/* Şeffaf Kenarlık Button */
+.btn-transparent-border {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #007bff, #00ff00);
+  border-image-slice: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-transparent-border:hover {
+  transform: scale(1.1);
+}
+
+/* Basınca Geçiş Yapan Button */
+.btn-press-transition {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.btn-press-transition:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Gölgeli Daire Button */
+.btn-circle-shadow {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-circle-shadow:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Gradient Doldurmalı Button */
+.btn-gradient-fill {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff1493, #00bfff, #00ff00);
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Kenarları Yumuşak Daire Button */
+.btn-rounded {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #ff4500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-rounded:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Renk Değiştiren Border Button */
+.btn-color-changing-border {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: 3px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.btn-color-changing-border:hover {
+  color: #007bff;
+}
+
+/* İçi Dolu ve Gölgeli Button */
+.btn-filled-shadowed {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00ff7f;
+  box-shadow: 0 4px 8px rgba(0, 255, 127, 0.3), 0 12px 24px rgba(0, 255, 127, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-filled-shadowed:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 255, 127, 0.4), 0 16px 32px rgba(0, 255, 127, 0.3);
+}
+
+
+
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Animasyonlu Doldurmalı Button */
+.btn-animated-fill {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff1493, #00bfff, #00ff00);
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s ease infinite, pulseAnimation 2s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulseAnimation {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Kayan Renkli Button */
+.btn-slide-colors {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #00ffff, #ff1493, #00bfff, #00ff00);
+  background-size: 600% 100%;
+  animation: slideColors 10s ease infinite;
+}
+
+@keyframes slideColors {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Sıçrama Efektli Button */
+.btn-bounce-effect {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: bounceEffect 1s ease infinite;
+}
+
+@keyframes bounceEffect {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Çekici ve Gölge Effektli Button */
+.btn-attractive-shadow {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff4500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-attractive-shadow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Renk Değiştiren Gölgeli Button */
+.btn-color-changing-shadow {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00ff7f;
+  box-shadow: 0 4px 8px rgba(0, 255, 127, 0.3);
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-color-changing-shadow:hover {
+  background-color: #ff6347;
+  box-shadow: 0 8px 16px rgba(255, 99, 71, 0.4);
+}
+
+/* İçi Boş Daire Button */
+.btn-hollow-circle {
+  font-size: 18px;
+  color: #007bff;
+  padding: 12px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-hollow-circle:hover {
+  color: #00ff00;
+  transform: scale(1.1);
+}
+
+/* Çerçeveli ve Kenarları Yumuşak Button */
+.btn-framed-rounded {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-framed-rounded:hover {
+  background-color: #007bff;
+}
+
+/* 3D Efektli Button */
+.btn-3d-effect {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff4500;
+  box-shadow: 0 8px 16px rgba(255, 69, 0, 0.3);
+  transform: perspective(1px) translateZ(0);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-3d-effect:hover {
+  transform: scale(1.1) perspective(1px) translateZ(0);
+  box-shadow: 0 16px 32px rgba(255, 69, 0, 0.4);
+}
+
+
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Gradient İçi Boş Button */
+.btn-gradient-hollow {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ff1493, #00bfff, #00ff00);
+  border-image-slice: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-gradient-hollow:hover {
+  color: #ff1493;
+  transform: scale(1.1);
+}
+
+/* Parlayan Button */
+.btn-glowing {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  box-shadow: 0 0 10px #007bff;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.btn-glowing:hover {
+  box-shadow: 0 0 20px #007bff, 0 0 40px #007bff, 0 0 80px #007bff;
+}
+
+/* Kenarları Kıvrımlı Button */
+.btn-curvy {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #00ff7f;
+  box-shadow: 0 4px 8px rgba(0, 255, 127, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-curvy:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 255, 127, 0.4);
+}
+
+/* Şeffaf Daire Button */
+.btn-transparent-circle {
+  font-size: 18px;
+  color: #007bff;
+  padding: 12px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-transparent-circle:hover {
+  color: #ff4500;
+  transform: scale(1.1);
+}
+
+
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Altıgen Button */
+.btn-hexagon {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #ff1493;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-hexagon:hover {
+  transform: scale(1.1);
+}
+
+/* Animasyonlu Gölgeli Button */
+.btn-animated-shadow {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00bfff;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-animated-shadow:hover {
+  animation: animateShadow 2s infinite;
+}
+
+@keyframes animateShadow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+  }
+}
+
+/* Yarım Daire Button */
+.btn-half-circle {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 0 50% 50% 0 / 50% 0 0 50%;
+  cursor: pointer;
+  background-color: #ff6347;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-half-circle:hover {
+  transform: scale(1.1);
+}
+
+/* Gece Modu Button */
+.btn-dark-mode {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #343a40;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-dark-mode:hover {
+  background-color: #212529;
+}
+
+/* EvoButtons.css */
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Eğimli Button */
+.btn-gradient-tilt {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff4500, #007bff);
+  background-size: 200% 200%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-gradient-tilt:hover {
+  transform: rotate(20deg) scale(1.1);
+}
+
+/* Hareketli Daire Button */
+.btn-floating-circle {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #00ff7f;
+  box-shadow: 0 0 20px rgba(0, 255, 127, 0.5);
+  transition: transform 0.5s ease-in-out;
+  animation: floatingCircle 3s infinite;
+}
+
+@keyframes floatingCircle {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Pixel Button */
+.btn-pixel {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  background-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-pixel:hover {
+  transform: scale(1.1);
+}
+
+/* Simetrik Button */
+.btn-symmetric {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50% 0 50% 0 / 0 50% 0 50%;
+  cursor: pointer;
+  background-color: #ff1493;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-symmetric:hover {
+  transform: rotate(180deg);
+}
+
+
+
