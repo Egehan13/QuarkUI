@@ -699,5 +699,273 @@
   transform: rotate(180deg);
 }
 
+/* QuarkUI.css */
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Yıldızlı Button */
+.btn-star {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff1493;
+  clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 35.4%, 70.9% 61.8%, 82.1% 100%, 50% 76.4%, 17.9% 100%, 29.1% 61.8%, 0% 35.4%, 38.2% 38.2%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-star:hover {
+  transform: scale(1.1);
+}
+
+/* Süzülen Button */
+.btn-floating {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #00bfff;
+  box-shadow: 0 4px 8px rgba(0, 191, 255, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-floating:hover {
+  transform: translateY(-10px);
+}
+
+/* Keskin Hatlı Button */
+.btn-sharp {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  background-color: #ff4500;
+  box-shadow: 0 0 8px rgba(255, 69, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-sharp:hover {
+  transform: scale(1.1);
+}
+
+/* Gezegen Button */
+.btn-planet {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-planet:hover {
+  transform: scale(1.2);
+}
+
+/* Büyüyen Daire Button */
+.btn-growing-circle {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #00ff7f;
+  transition: transform 0.5s ease-in-out;
+}
+
+.btn-growing-circle:hover {
+  transform: scale(2);
+}
+
+
+/* QuarkUI.css */
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Radyal Gradyan Button */
+.btn-radial-gradient {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: radial-gradient(circle, #ff4500, #007bff, #00ff7f);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-radial-gradient:hover {
+  transform: scale(1.1);
+}
+
+/* Çift Renkli Button */
+.btn-dual-color {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #007bff, #ff4500);
+  background-size: 200% 200%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-dual-color:hover {
+  background-position: right bottom;
+}
+
+/* Kaleidoskop Button */
+.btn-kaleidoscope {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: url("kaleidoscope-pattern.png");
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-kaleidoscope:hover {
+  transform: rotate(180deg);
+}
+
+/* Çizgi Animasyonlu Button */
+.btn-line-animation {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff1493;
+  background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.btn-line-animation:hover {
+  background-position: 0;
+}
+
+/* Dönüşümlü Border Button */
+.btn-alternating-border {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, #ff1493, #007bff);
+  border-image-slice: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-alternating-border:hover {
+  transform: rotate(45deg);
+}
+
+
+/* QuarkUI.css */
+
+/* Yenilikçi ve Şık Button Stilleri */
+
+/* Renkli Gölgeli Button */
+.btn-colorful-shadow {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff4500;
+  box-shadow: 0 4px 8px rgba(255, 69, 0, 0.3), 0 4px 12px rgba(255, 69, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-colorful-shadow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(255, 69, 0, 0.4), 0 8px 24px rgba(255, 69, 0, 0.3);
+}
+
+/* Parıltılı Button */
+.btn-sparkling {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.5), transparent);
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in-out;
+}
+
+.btn-sparkling:hover {
+  background-size: 150% 150%;
+}
+
+/* Dalgalı Button */
+.btn-wavy {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #00ff7f;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-wavy:before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+
+.btn-wavy:hover {
+  transform: scale(1.1);
+}
+
+/* Gece Gökyüzü Button */
+.btn-night-sky {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #343a40;
+  background-image: url("night-sky-pattern.png");
+  background-blend-mode: overlay;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-night-sky:hover {
+  background-color: #212529;
+}
+
+
 
 
